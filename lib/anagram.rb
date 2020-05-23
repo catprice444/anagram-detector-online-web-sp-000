@@ -24,7 +24,7 @@ class Anagram
   # then I have to compare the two words but when I compare then I have to (.split) and (.sort)
 
 def match(array)
-  array.match do |word|
+  array.select do |word|
     (@words.split(",").sort) == (word.split(",").sort)
 end
 end 

@@ -11,8 +11,16 @@ class Anagram
     @word = word
   end
 
-def match(array)
+  # take in an array
+  # returns an empty array if you matches
+  # iterate over the array of words using the ".math" method
+  # compare the new array of words to the :word method
+  # have to determine if they are composed of the same letters
+  # use the ".split" method to seperate out the words in the array
+  # use the "==" to compare the words
 
+def match(array)
+  array(split)
 end
 
 end

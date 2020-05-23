@@ -27,5 +27,5 @@ def match(array)
   array.match do |word|
     (@words.split(",").sort) == (word.split(",").sort)
 end
-
+end 
 end

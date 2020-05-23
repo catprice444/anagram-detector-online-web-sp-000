@@ -11,8 +11,8 @@ class Anagram
     @word = word
   end
 
-def self.match(array)
-  array
+def match(array)
+  array.split
 end
 
 end

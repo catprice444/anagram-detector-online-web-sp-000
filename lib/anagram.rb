@@ -17,7 +17,8 @@ class Anagram
   # compare the new array of words to the :word method
   # have to determine if they are composed of the same letters
   # use the ".split" method to seperate out the words in the array
-  # use the "==" to compare the words
+  # use the "==" to compare the words/ arrays
+  # can use the ".sort" method to compare the words/arrays
 
 def match(array)
   array(split)
